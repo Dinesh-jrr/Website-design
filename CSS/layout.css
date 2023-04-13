@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.parent{
+    width:100%;
+    height:400px;
+    
+}
+.parent .left{
+    font-family:arial;
+    background-color:rgb(12,59,46);
+    width:70%;
+    height:400px;
+    color:white;
+    
+    
+    
+
+}
+.parent .right{
+    width:30%;
+    
+    
+}
+.parent .left,.right{
+    float:left;
+    
+
+}
+.img{
+    height:400px;
+    width:400px;
+}
+.address{
+    font-size:10px;
+    margin-top:60px;
+    margin-bottom:0px;
+    line-height:15px;
+}
+.book{
+    background-color:rgb(252, 186, 3);
+    font-size:10px;
+    height:25px;
+    border-radius:30px;
+    border:none;
+    width:210px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:20px;
+    float:center;
+    margin-top:30px;
+
+}
+.content{
+    padding:40px;
+}
+@media(max-width:1230px){
+    .left .img{
+        height:300px;
+}
