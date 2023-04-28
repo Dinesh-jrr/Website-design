@@ -56,7 +56,3 @@
 .content{
     padding:40px;
 }
-@media(max-width:1230px){
-    .left .img{
-        height:300px;
-}
