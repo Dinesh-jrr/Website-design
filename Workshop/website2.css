@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container1{
+    background-color:rgb(109,151,115);
+    color:white;
+    text-align: center;
+    
+}
+.top{
+    display:flex;
+    justify-content: space-around;
+    padding-top:20px;
+    
+}
+.bottom .image{
+    height:400px;
+    width:1000px;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+.top .every{
+    
+    font-size:25px;
+}
